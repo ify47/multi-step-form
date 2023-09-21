@@ -8,7 +8,7 @@ import { StepFive } from "./pages/stepFive";
 
 export const Routers = () => {
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/multi-step-form"}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/multi-step-form/"}>
       <Routes>
         <Route path="/" element={<StepOne />} />
         <Route path="step-two" element={<StepTwo />} />

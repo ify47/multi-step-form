@@ -1,27 +1,32 @@
-# React + TypeScript + Vite
+# Multi-Step-Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a solution to the [Multi-Step-Form](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ) from Frontend Mentor. 
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of the project was to create a  multi step form webapp prototype in which users can fill in their details real-time, make changes and submit the form.
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You can see a live demo of the project in the link area.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+The project was built using:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React Typescript
+- Chakra-Ui
+- Vite
+- Formik form
+
+## Features
+
+- Create multi-step forms easily.
+- Customizable and flexible.
+- Support for validation and error handling.
+- Responsive design.
+- Keyboard navigation support.
+
+## Credits
+
+Thanks to Frontend Mentor for providing the challenge and the design files.

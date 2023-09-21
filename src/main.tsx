@@ -7,10 +7,10 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <ChakraProvider theme={customTheme}>
-      <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/multi-step-form/"}>
+      <ChakraProvider theme={customTheme}>
         <App />
-      </BrowserRouter>
-    </ChakraProvider>
+      </ChakraProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );

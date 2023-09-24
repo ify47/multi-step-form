@@ -18,6 +18,7 @@ The project was built using:
 - Chakra-Ui
 - Vite
 - Formik form
+- React Router
 
 ## Features
 
